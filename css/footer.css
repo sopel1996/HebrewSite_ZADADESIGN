@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "IBMPlex";
+  src: url("/fonts/otf/IBMPlexSansHebrew-Light.otf") format("openType");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBMPlex";
+  src: url("/fonts/otf/IBMPlexSansHebrew-ExtraLight.otf") format("openType");
+  font-weight: 100;
+  font-display: swap;
+}
+.sectionFooter {
+  background-color: #474849;
+  width: 100%;
+  height: 294px;
+  color: #FFFFFF;
+}
+.sectionFooter .sectionInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sectionFooter .copyright {
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.25em;
+}
+.sectionFooter .Logo {
+  width: 106px;
+  height: 47px;
+}
+.sectionFooter .social {
+  width: 84px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.5;
+}
+.sectionFooter .socialLink {
+  display: flex;
+  border: 1px solid white;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+}

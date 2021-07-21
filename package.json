@@ -1,0 +1,25 @@
+{
+  "name": "hebrewsite_zadadesign",
+  "version": "1.0.0",
+  "description": "ZADA design studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sopel1996/HebrewSite_ZADADESIGN.git"
+  },
+  "author": "Sopel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sopel1996/HebrewSite_ZADADESIGN/issues"
+  },
+  "homepage": "https://github.com/sopel1996/HebrewSite_ZADADESIGN#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.4",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.2"
+  }
+}
