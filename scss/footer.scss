@@ -1,8 +1,8 @@
-@import 'fonts.scss';
+@import 'mixins.scss';
 .sectionFooter{
     background-color: #474849;
     width: 100%;
-    height: 294px;
+    height: toRem(294);
     color: #FFFFFF;
     .sectionInner{
         display: flex;
@@ -11,32 +11,35 @@
         justify-content: space-evenly;
     }
     .copyright{
-        font-family: "IBMPlex";
-        font-weight: 300;
-        font-size: 12px;
+        @include IBMPlexLight(12);
         letter-spacing: 0.25em;
     }
     .Logo{
-        width: 106px;
-        height: 47px;
+        width: toRem(106);
+        height: toRem(47);
     }
     .social{
-    width: 84px;
-    height: 35px;
+    width: toRem(84);
+    height: toRem(35);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    opacity: 0.5;
-        &Link{
+    
+    &Link{
+            opacity: 0.5;
             display: flex;
             border: 1px solid rgba(255, 255, 255, 1);
-            width: 35px;
-            height: 35px;
+            width: toRem(35);
+            height: toRem(35);
             align-items: center;
             justify-content: center;
+            &:hover{
+                opacity: 0.9;
+            }   
             &Img{
-                
+                width: toRem(20);
+                height: toRem(20);
             }
         }
         

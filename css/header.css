@@ -1,17 +1,5 @@
-@font-face {
-  font-family: "IBMPlex";
-  src: url("/fonts/otf/IBMPlexSansHebrew-Light.otf") format("openType");
-  font-weight: 300;
-  font-display: swap;
-}
-@font-face {
-  font-family: "IBMPlex";
-  src: url("/fonts/otf/IBMPlexSansHebrew-ExtraLight.otf") format("openType");
-  font-weight: 100;
-  font-display: swap;
-}
 .sectionHeader {
-  height: 820px;
+  height: 51.25rem;
   background: #0000FF url(/img/png/headerBg.png) 50% 50% no-repeat;
   background-size: cover;
   position: relative;
@@ -28,14 +16,14 @@
 }
 .sectionHeader .headerNav {
   position: absolute;
-  top: 86px;
+  top: 5.375rem;
   left: 0;
   z-index: 20;
   font-family: "IBMPlex";
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.125rem;
   width: 100%;
-  height: 67px;
+  height: 4.1875rem;
 }
 .sectionHeader .headerNav .sectionInner {
   display: flex;
@@ -47,26 +35,30 @@
   color: #FFFFFF;
   flex-grow: 1;
   letter-spacing: 0.25em;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   text-align: center;
-  width: 120px;
+  width: 7.5rem;
 }
 .sectionHeader .headerNav .navLink:hover {
   color: #b9b9b9;
 }
 .sectionHeader .headerNav .logo {
-  height: 67px;
+  height: 4.1875rem;
   flex-grow: 10;
   text-align: center;
+}
+.sectionHeader .headerNav .logo .logoImg {
+  width: 9.4375rem;
+  height: 4.1875rem;
 }
 .sectionHeader .headerText {
   color: #FFFFFF;
   width: 100%;
   position: absolute;
-  bottom: 36px;
+  bottom: 2.25rem;
   left: 0;
   z-index: 20;
-  height: 100px;
+  height: 6.25rem;
 }
 .sectionHeader .headerText .sectionInner {
   display: flex;
@@ -77,12 +69,12 @@
 .sectionHeader .headerText .sectionInner .title {
   font-family: "IBMPlex";
   font-weight: 100;
-  font-size: 42px;
+  font-size: 2.625rem;
   letter-spacing: 0.15em;
 }
 .sectionHeader .headerText .sectionInner .subTitle {
   font-family: "IBMPlex";
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: 0.2em;
 }

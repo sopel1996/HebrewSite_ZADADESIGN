@@ -1,18 +1,6 @@
-@font-face {
-  font-family: "IBMPlex";
-  src: url("/fonts/otf/IBMPlexSansHebrew-Light.otf") format("openType");
-  font-weight: 300;
-  font-display: swap;
-}
-@font-face {
-  font-family: "IBMPlex";
-  src: url("/fonts/otf/IBMPlexSansHebrew-ExtraLight.otf") format("openType");
-  font-weight: 100;
-  font-display: swap;
-}
 .sectionDescription {
-  height: 844px;
-  margin-bottom: 60px;
+  height: 52.75rem;
+  margin-bottom: 3.75rem;
 }
 .sectionDescription .sectionInner {
   display: flex;
@@ -23,11 +11,11 @@
 .sectionDescription .descriptionText {
   font-family: "IBMPlex";
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: 0.1em;
-  padding: 204px 135px 198px 134px;
-  width: 800px;
-  height: 844px;
+  padding: 12.75rem 8.4375rem 12.375rem 8.375rem;
+  width: 50rem;
+  height: 52.75rem;
   background-color: #F3F3F3;
   display: flex;
   flex-direction: column;
@@ -36,9 +24,10 @@
   text-align: center;
 }
 .sectionDescription .descriptionText p {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .sectionDescription .descriptionImg {
-  width: 811px;
-  height: 844px;
+  object-fit: cover;
+  width: 50.6875rem;
+  height: 52.75rem;
 }

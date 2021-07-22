@@ -1,6 +1,6 @@
-@import 'fonts.scss';
+@import 'mixins.scss';
 .sectionHeader{
-    height: 820px;
+    height: toRem(820);
     background: #0000FF url(/img/png/headerBg.png) 50% 50% no-repeat;
     background-size: cover;
     position: relative;
@@ -17,14 +17,12 @@
     }
     .headerNav{
         position: absolute;
-        top: 86px;
+        top: toRem(86);
         left: 0;
         z-index: 20;
-        font-family: "IBMPlex";
-        font-weight: 300;
-        font-size: 18px;
+        @include IBMPlexLight(18);
         width: 100%;
-        height: 67px;
+        height: toRem(67);
         .sectionInner{
             display: flex;
             flex-direction: row;
@@ -35,17 +33,21 @@
             color: #FFFFFF;
             flex-grow: 1;
             letter-spacing: 0.25em;
-            margin-top: 20px;
+            margin-top: toRem(20);
             text-align: center;
-            width: 120px;
+            width: toRem(120);
             &:hover{
                 color: #b9b9b9;
             }
         }
         .logo{
-            height: 67px;
+            height: toRem(67);
             flex-grow: 10;
             text-align: center;
+            .logoImg{
+                width: toRem(151);
+                height: toRem(67) ;
+            }
         }
     }
     .slider{}
@@ -53,10 +55,10 @@
         color: #FFFFFF;
         width: 100%;
         position: absolute;
-        bottom: 36px;
+        bottom: toRem(36);
         left: 0;
         z-index: 20;
-        height: 100px;
+        height: toRem(100);
         
         .sectionInner{
             display: flex;
@@ -65,15 +67,11 @@
             justify-content: space-between;
             
             .title{
-                font-family: "IBMPlex";
-                font-weight: 100;
-                font-size: 42px;
+                @include IBMPlexExtraLight(42);
                 letter-spacing: 0.15em;
             }
             .subTitle{
-                font-family: "IBMPlex";
-                font-weight: 300;
-                font-size: 20px;
+                @include IBMPlexLight(20);
                 letter-spacing: 0.2em;
             }
         }

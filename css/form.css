@@ -1,17 +1,5 @@
-@font-face {
-  font-family: "IBMPlex";
-  src: url("/fonts/otf/IBMPlexSansHebrew-Light.otf") format("openType");
-  font-weight: 300;
-  font-display: swap;
-}
-@font-face {
-  font-family: "IBMPlex";
-  src: url("/fonts/otf/IBMPlexSansHebrew-ExtraLight.otf") format("openType");
-  font-weight: 100;
-  font-display: swap;
-}
 .sectionForm {
-  height: 420px;
+  height: 26.25rem;
   background-color: #CEA48B;
   color: #FFFFFF;
 }
@@ -25,24 +13,24 @@
 .sectionForm .subTitle {
   font-family: "IBMPlex";
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.875rem;
   opacity: 0.6;
 }
 .sectionForm .title {
   font-family: "IBMPlex";
   font-weight: 100;
-  font-size: 58px;
+  font-size: 3.625rem;
   letter-spacing: 0.15em;
-  margin-top: 25px;
+  margin-top: 1.5625rem;
 }
 .sectionForm .form {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 652px;
-  height: 188px;
+  width: 40.75rem;
+  height: 11.75rem;
 }
 .sectionForm .formLine {
   width: 100%;
@@ -52,8 +40,8 @@
   justify-content: space-between;
 }
 .sectionForm .form .formsInput {
-  width: 211px;
-  height: 40px;
+  width: 13.1875rem;
+  height: 2.5rem;
   background-color: transparent;
   outline: none;
   border: 1px solid #FFFFFF;
@@ -61,8 +49,8 @@
   text-align: right;
   font-family: "IBMPlex";
   font-weight: 300;
-  font-size: 14px;
-  padding: 15px;
+  font-size: 0.875rem;
+  padding: 0.9375rem;
 }
 .sectionForm .form .formsInput::placeholder {
   color: #FFFFFF;
@@ -70,10 +58,10 @@
 .sectionForm .form .comments {
   font-family: "IBMPlex";
   font-weight: 300;
-  font-size: 14px;
-  padding: 12px;
+  font-size: 0.875rem;
+  padding: 0.75rem;
   width: 100%;
-  height: 80px;
+  height: 5rem;
   background-color: transparent;
   outline: none;
   border: 1px solid #FFFFFF;
@@ -86,7 +74,7 @@
 }
 .sectionForm .form .btn {
   width: 100%;
-  height: 48px;
+  height: 3rem;
   color: #757575;
   background-color: #FFFFFF;
   outline: none;

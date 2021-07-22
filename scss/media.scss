@@ -1,0 +1,84 @@
+@import 'mixins.scss';
+@media (max-width: 1610px) {
+    .sectionInner{
+        padding: 0 toRem(20);
+    }
+    .sectionPojects{
+        .fistColumn{
+            margin-right: 50px;
+        }
+    }
+    html{
+        font-size: 15px;
+    }
+}
+@media (max-width: (1300-1)+px) {
+    .sectionDescription{
+        // .descriptionText{
+        //     padding: toRem(204) toRem(50) toRem(198) toRem(50);
+        // }
+        .descriptionImg{
+            width: toRem(640);
+        }
+    }
+
+}
+@media (max-width: (1200-1)+px) {
+    html{
+        font-size: 13px;
+    }
+}
+@media (max-width: (992-1)+px) {
+    html{
+        font-size: 11px;
+    }
+}
+@media (max-width: (850-1)+px) {
+    .sectionDescription{
+        .descriptionImg{
+            width: toRem(550);
+        }
+    }
+}
+@media (max-width: (801-1)+px) {
+    .sectionPojects{
+        .projectCards{
+            justify-content: center;
+        }
+        .fistColumn{
+            display: none;
+        }
+    }
+}
+@media (max-width: (768-1)+px) {
+    html{
+        font-size: 10px;
+    }
+    .sectionDescription{
+        .descriptionText{
+            padding: toRem(204) toRem(50) toRem(198) toRem(50);
+        }
+        .descriptionImg{
+            width: toRem(400);
+        }
+    }
+    .sectionPojects{
+        .mediumCard{
+            .cardImg{
+                height: toRem(517);
+            }
+        } 
+
+    }
+    .sectionForm {
+        .form{
+            .formsInput,
+            .comments{
+                font-size: 1rem;
+            }
+            .btn{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
