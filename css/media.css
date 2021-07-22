@@ -68,3 +68,8 @@
     font-size: 7px;
   }
 }
+@media (max-width: 359px) {
+  html {
+    font-size: 6px;
+  }
+}
