@@ -67,9 +67,21 @@
   html {
     font-size: 7px;
   }
+
+  .sectionHeader .owl-carousel .owl-nav {
+    display: none;
+  }
 }
 @media (max-width: 359px) {
   html {
     font-size: 4px;
+  }
+
+  .sectionForm .form .formsInput,
+.sectionForm .form .comments {
+    font-size: 1rem;
+  }
+  .sectionForm .form .btn {
+    font-size: 1.3rem;
   }
 }

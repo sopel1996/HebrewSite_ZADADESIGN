@@ -371,22 +371,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-.sectionHeader {
-  height: 51.25rem;
-  background: #0000FF url(/img/png/headerBg.png) 50% 50% no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.sectionHeader::before {
-  content: "";
-  position: absolute;
-  z-index: 5;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
 .sectionHeader .headerNav {
   position: absolute;
   top: 5.375rem;
@@ -423,6 +407,62 @@ h1, h2, h3, h4, h5, h6 {
 .sectionHeader .headerNav .logo .logoImg {
   width: 9.4375rem;
   height: 4.1875rem;
+}
+.sectionHeader .owl-carousel {
+  background-color: black;
+  position: relative;
+}
+.sectionHeader .owl-carousel .owl-nav {
+  position: absolute;
+  margin: 0 auto;
+  max-width: 100.625rem;
+  min-width: 18.75rem;
+  bottom: 3.125rem;
+  right: 0;
+  left: 0;
+  z-index: 210;
+  padding: 0 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sectionHeader .owl-carousel .owlItem {
+  height: 51.25rem;
+  position: relative;
+}
+.sectionHeader .owl-carousel .owlItem .slideImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.sectionHeader .owl-carousel .owlItem::before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.sectionHeader .owl-carousel .owl-prev {
+  background: transparent url(/img/svg/arrowPrew.svg) 50% 50% no-repeat;
+  background-size: contain;
+  width: 3.875rem;
+  height: 0.75rem;
+}
+.sectionHeader .owl-carousel .owl-prev span {
+  display: none;
+}
+.sectionHeader .owl-carousel .owl-next {
+  background: transparent url(/img/svg/arrowNext.svg) 50% 50% no-repeat;
+  background-size: contain;
+  width: 3.875rem;
+  height: 0.75rem;
+}
+.sectionHeader .owl-carousel .owl-next span {
+  display: none;
 }
 .sectionHeader .headerText {
   color: #FFFFFF;
@@ -798,9 +838,21 @@ h1, h2, h3, h4, h5, h6 {
   html {
     font-size: 7px;
   }
+
+  .sectionHeader .owl-carousel .owl-nav {
+    display: none;
+  }
 }
 @media (max-width: 359px) {
   html {
     font-size: 4px;
+  }
+
+  .sectionForm .form .formsInput,
+.sectionForm .form .comments {
+    font-size: 1rem;
+  }
+  .sectionForm .form .btn {
+    font-size: 1.3rem;
   }
 }

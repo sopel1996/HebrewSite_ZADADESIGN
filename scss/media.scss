@@ -87,6 +87,13 @@
     html {
         font-size: 7px;
     }
+    .sectionHeader{ 
+        .owl-carousel{
+            .owl-nav{
+                display: none;
+            } 
+        }
+    }
 }
 @media (max-width: (360-1)+px){
 

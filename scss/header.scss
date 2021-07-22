@@ -1,20 +1,5 @@
 @import 'mixins.scss';
 .sectionHeader{
-    height: toRem(820);
-    background: #0000FF url(/img/png/headerBg.png) 50% 50% no-repeat;
-    background-size: cover;
-    position: relative;
-    
-    &::before {
-        content: '';
-        position: absolute;
-        z-index: 5;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.5); 
-    }
     .headerNav{
         position: absolute;
         top: toRem(86);
@@ -50,7 +35,67 @@
             }
         }
     }
-    .slider{}
+    
+    .owl-carousel{
+        background-color: black;
+        position: relative;
+        .owl-nav{
+            position: absolute;
+            margin: 0 auto;
+            max-width: toRem(1610);
+            min-width: toRem(300);
+            bottom: toRem(50);
+            right: 0;
+            left: 0;
+            z-index: 210;
+            padding: 0 toRem(20);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .owlItem{
+            height: toRem(820);
+            position: relative;
+            .slideImg{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                z-index: 5;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.5); 
+            }
+        }
+        
+        .owl-prev{
+            span{
+                display: none;
+            }
+            background: transparent url(/img/svg/arrowPrew.svg) 50% 50% no-repeat;
+            background-size: contain;
+            width: toRem(62);
+            height: toRem(12);
+        }
+        .owl-next{
+            span{
+                display: none;
+            }
+            background: transparent url(/img/svg/arrowNext.svg) 50% 50% no-repeat;
+            background-size: contain;
+            width: toRem(62);
+            height: toRem(12);
+        }
+    }
+
+
+
     .headerText{
         color: #FFFFFF;
         width: 100%;
