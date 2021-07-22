@@ -51,9 +51,13 @@
   text-align: center;
   width: 120px;
 }
+.sectionHeader .headerNav .navLink:hover {
+  color: #b9b9b9;
+}
 .sectionHeader .headerNav .logo {
   height: 67px;
   flex-grow: 10;
+  text-align: center;
 }
 .sectionHeader .headerText {
   color: #FFFFFF;

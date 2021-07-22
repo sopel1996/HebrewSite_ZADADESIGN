@@ -38,10 +38,14 @@
             margin-top: 20px;
             text-align: center;
             width: 120px;
+            &:hover{
+                color: #b9b9b9;
+            }
         }
         .logo{
             height: 67px;
             flex-grow: 10;
+            text-align: center;
         }
     }
     .slider{}

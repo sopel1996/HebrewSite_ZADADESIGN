@@ -68,6 +68,7 @@
             border: 1px solid #FFFFFF;
             color: #FFFFFF;
             text-align: right;
+            resize: none;
             &::placeholder{
                 color: #FFFFFF;
             }  
@@ -79,6 +80,10 @@
             background-color: #FFFFFF;
             outline: none;
             border: none;
+            cursor: pointer;
+            &:active{
+                background-color: #f1f0f0;
+            }
 
         }
     }

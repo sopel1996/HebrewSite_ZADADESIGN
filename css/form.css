@@ -79,6 +79,7 @@
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
   text-align: right;
+  resize: none;
 }
 .sectionForm .form .comments::placeholder {
   color: #FFFFFF;
@@ -90,4 +91,8 @@
   background-color: #FFFFFF;
   outline: none;
   border: none;
+  cursor: pointer;
+}
+.sectionForm .form .btn:active {
+  background-color: #f1f0f0;
 }
