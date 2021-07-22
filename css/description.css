@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "IBMPlex";
+  src: url("/fonts/otf/IBMPlexSansHebrew-Light.otf") format("openType");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBMPlex";
+  src: url("/fonts/otf/IBMPlexSansHebrew-ExtraLight.otf") format("openType");
+  font-weight: 100;
+  font-display: swap;
+}
+.sectionDescription {
+  height: 844px;
+  margin-bottom: 60px;
+}
+.sectionDescription .sectionInner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sectionDescription .descriptionText {
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  padding: 204px 135px 198px 134px;
+  width: 800px;
+  height: 844px;
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sectionDescription .descriptionText p {
+  margin-bottom: 40px;
+}
+.sectionDescription .descriptionImg {
+  width: 811px;
+  height: 844px;
+}

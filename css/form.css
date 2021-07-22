@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "IBMPlex";
+  src: url("/fonts/otf/IBMPlexSansHebrew-Light.otf") format("openType");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IBMPlex";
+  src: url("/fonts/otf/IBMPlexSansHebrew-ExtraLight.otf") format("openType");
+  font-weight: 100;
+  font-display: swap;
+}
+.sectionForm {
+  height: 420px;
+  background-color: #CEA48B;
+  color: #FFFFFF;
+}
+.sectionForm .sectionInner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sectionForm .subTitle {
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.6;
+}
+.sectionForm .title {
+  font-family: "IBMPlex";
+  font-weight: 100;
+  font-size: 58px;
+  letter-spacing: 0.15em;
+  margin-top: 25px;
+}
+.sectionForm .form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 652px;
+  height: 188px;
+}
+.sectionForm .formLine {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sectionForm .form .formsInput {
+  width: 211px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: right;
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 14px;
+  padding: 15px;
+}
+.sectionForm .form .formsInput::placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .comments {
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 14px;
+  padding: 12px;
+  width: 100%;
+  height: 80px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: right;
+}
+.sectionForm .form .comments::placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .btn {
+  width: 100%;
+  height: 48px;
+  color: #757575;
+  background-color: #FFFFFF;
+  outline: none;
+  border: none;
+}
