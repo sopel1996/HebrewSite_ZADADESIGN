@@ -11,14 +11,45 @@
     font-size: 15px;
   }
 }
+@media (max-width: 1499px) {
+  .TelAvivProject .description .fistImg {
+    height: auto;
+    width: 42.5rem;
+  }
+  .TelAvivProject .cards .smallImgCard,
+.TelAvivProject .cards .bigImgCard {
+    width: 27.5rem;
+    height: auto;
+  }
+}
 @media (max-width: 1299px) {
   .sectionDescription .descriptionImg {
     width: 40rem;
+  }
+
+  .TelAvivProject .description .fistImg {
+    height: auto;
+    width: 40.625rem;
+  }
+  .TelAvivProject .cards .smallImgCard,
+.TelAvivProject .cards .bigImgCard {
+    width: 25rem;
+    height: auto;
   }
 }
 @media (max-width: 1199px) {
   html {
     font-size: 13px;
+  }
+
+  .TelAvivProject .description .fistImg {
+    height: auto;
+    width: 37.5rem;
+  }
+  .TelAvivProject .cards .smallImgCard,
+.TelAvivProject .cards .bigImgCard {
+    width: 23.75rem;
+    height: auto;
   }
 }
 @media (max-width: 991px) {
@@ -30,6 +61,15 @@
   .sectionDescription .descriptionImg {
     width: 34.375rem;
   }
+
+  .TelAvivProject .description .TelAvivText {
+    font-size: 1.125rem;
+  }
+  .TelAvivProject .cards .smallImgCard,
+.TelAvivProject .cards .bigImgCard {
+    width: 21.875rem;
+    height: auto;
+  }
 }
 @media (max-width: 800px) {
   .sectionPojects .projectCards {
@@ -37,6 +77,27 @@
   }
   .sectionPojects .fistColumn {
     display: none;
+  }
+  .sectionPojects ._marginTop370 {
+    margin-top: 0;
+  }
+
+  .TelAvivProject .description .sectionInner {
+    flex-direction: column;
+  }
+  .TelAvivProject .description .sectionInner .TelAvivText {
+    width: 43.75rem;
+  }
+  .TelAvivProject .description .sectionInner .fistImg {
+    width: 43.75rem;
+    order: 2;
+  }
+  .TelAvivProject .cards .sectionInner {
+    flex-direction: column;
+  }
+  .TelAvivProject .cards .smallImgCard,
+.TelAvivProject .cards .bigImgCard {
+    width: 31rem;
   }
 }
 @media (max-width: 767px) {

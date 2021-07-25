@@ -119,3 +119,24 @@
   font-size: 1.25rem;
   letter-spacing: 0.2em;
 }
+.sectionHeader ._grayBG {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #474849;
+  height: 8.75rem;
+}
+.sectionHeader ._otherPages {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #CEA48B;
+  height: 12.8125rem;
+  margin-bottom: 4.0625rem;
+}
+.sectionHeader ._otherPages .sectionInner {
+  justify-content: center;
+}
+.sectionHeader ._otherPages .sectionInner .title {
+  margin-bottom: 1.25rem;
+}

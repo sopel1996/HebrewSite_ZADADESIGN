@@ -123,4 +123,27 @@
             }
         }
     }
+
+    ._grayBG{
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #474849;
+        height: toRem(140);
+    }
+    ._otherPages{
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: #CEA48B;
+        height: toRem(205);
+        .sectionInner{
+            justify-content: center;
+            .title{
+                margin-bottom: toRem(20);
+            }
+        }
+        margin-bottom: toRem(65);
+
+    }
 }

@@ -1,0 +1,64 @@
+.TelAvivProject .description {
+  margin-bottom: 3.75rem;
+}
+.TelAvivProject .description .sectionInner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.TelAvivProject .description .fistImg {
+  width: 50rem;
+  height: 30.25rem;
+  margin-right: 0.625rem;
+}
+.TelAvivProject .description .TelAvivText {
+  width: 42.0625rem;
+  height: 22.75rem;
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: 0.1em;
+  color: #757575;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.TelAvivProject .cards .sectionInner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.TelAvivProject .cards .smallImgCard {
+  width: 31rem;
+  height: 20.6875rem;
+  margin-bottom: 3.75rem;
+}
+.TelAvivProject .cards .bigImgCard {
+  width: 31rem;
+  height: 45rem;
+  margin-bottom: 3.75rem;
+}
+.TelAvivProject .cards .firstColumn {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.TelAvivProject .cards .seconColumn {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.TelAvivProject .cards .thirdColumn {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

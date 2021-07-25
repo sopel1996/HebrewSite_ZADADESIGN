@@ -105,3 +105,9 @@
   text-transform: uppercase;
   color: #757575;
 }
+.sectionPojects ._borderNone {
+  border: none;
+}
+.sectionPojects ._marginTop370 {
+  margin-top: 23.125rem;
+}
