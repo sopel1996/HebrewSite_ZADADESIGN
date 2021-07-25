@@ -106,10 +106,11 @@
 @media (max-width: (801-1)+px) {
     .sectionPojects{
         .projectCards{
-            justify-content: center;
+            height: auto;
+            flex-direction: column;
         }
         .fistColumn{
-            display: none;
+            margin-right: 0;
         }
         ._marginTop370{
             margin-top: 0;

@@ -73,10 +73,11 @@
 }
 @media (max-width: 800px) {
   .sectionPojects .projectCards {
-    justify-content: center;
+    height: auto;
+    flex-direction: column;
   }
   .sectionPojects .fistColumn {
-    display: none;
+    margin-right: 0;
   }
   .sectionPojects ._marginTop370 {
     margin-top: 0;
