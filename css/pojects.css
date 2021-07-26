@@ -5,9 +5,13 @@
   margin-top: 3.75rem;
   margin-bottom: 3.75rem;
   padding-top: 1.5625rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionPojects .title {
@@ -15,8 +19,11 @@
   font-weight: 100;
   font-size: 2.125rem;
   letter-spacing: 0.1em;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: #222222;
   margin-top: 2rem;
@@ -28,8 +35,11 @@
   font-weight: 100;
   font-size: 1.25rem;
   letter-spacing: 0.1em;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: #757575;
   margin-bottom: 6.25rem;
@@ -39,6 +49,7 @@
   text-align: center;
 }
 .sectionPojects .cardImg {
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .sectionPojects .smallCard,
@@ -56,9 +67,13 @@
 .sectionPojects .fistColumn {
   height: 100%;
   width: 48.4375rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: start;
   justify-content: flex-start;
 }
 .sectionPojects .fistColumn .smallCard,
@@ -71,9 +86,13 @@
   height: 100%;
   width: 48.4375rem;
   padding-top: 3.125rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 .sectionPojects .smallCard .cardImg {
@@ -95,10 +114,13 @@
 .sectionPojects .viewMoreLink {
   width: 100%;
   height: 2rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 3.75rem;
+  margin-bottom: 60npm install --save-dev postcss gulp-postcss/16rem;
   font-family: "IBMPlex";
   font-weight: 100;
   font-size: 2.125rem;

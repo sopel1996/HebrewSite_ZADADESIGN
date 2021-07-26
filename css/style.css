@@ -81,6 +81,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */
 }
@@ -383,9 +384,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 4.1875rem;
 }
 .sectionHeader .headerNav .sectionInner {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionHeader .headerNav .navLink {
@@ -393,6 +398,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   font-size: 1rem;
   color: #FFFFFF;
+  -ms-flex-positive: 1;
   flex-grow: 1;
   letter-spacing: 0.25em;
   text-align: center;
@@ -403,6 +409,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sectionHeader .headerNav .logo {
   height: 4.1875rem;
+  -ms-flex-positive: 10;
   flex-grow: 10;
   text-align: center;
 }
@@ -425,9 +432,13 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   z-index: 210;
   padding: 0 1.25rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionHeader .owl-carousel .owlItem {
@@ -437,6 +448,7 @@ h1, h2, h3, h4, h5, h6 {
 .sectionHeader .owl-carousel .owlItem .slideImg {
   height: 100%;
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .sectionHeader .owl-carousel .owlItem::before {
@@ -477,9 +489,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 6.25rem;
 }
 .sectionHeader .headerText .sectionInner {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionHeader .headerText .sectionInner .title {
@@ -513,6 +529,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 4.0625rem;
 }
 .sectionHeader ._otherPages .sectionInner {
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .sectionHeader ._otherPages .sectionInner .title {
@@ -534,9 +551,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 3.75rem;
   margin-bottom: 3.75rem;
   padding-top: 1.5625rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionPojects .title {
@@ -544,8 +565,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   font-size: 2.125rem;
   letter-spacing: 0.1em;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: #222222;
   margin-top: 2rem;
@@ -557,8 +581,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   font-size: 1.25rem;
   letter-spacing: 0.1em;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: #757575;
   margin-bottom: 6.25rem;
@@ -568,6 +595,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .sectionPojects .cardImg {
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .sectionPojects .smallCard,
@@ -585,9 +613,13 @@ h1, h2, h3, h4, h5, h6 {
 .sectionPojects .fistColumn {
   height: 100%;
   width: 48.4375rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: start;
   justify-content: flex-start;
 }
 .sectionPojects .fistColumn .smallCard,
@@ -600,9 +632,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   width: 48.4375rem;
   padding-top: 3.125rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 .sectionPojects .smallCard .cardImg {
@@ -624,10 +660,13 @@ h1, h2, h3, h4, h5, h6 {
 .sectionPojects .viewMoreLink {
   width: 100%;
   height: 2rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 3.75rem;
+  margin-bottom: 60npm install --save-dev postcss gulp-postcss/16rem;
   font-family: "IBMPlex";
   font-weight: 100;
   font-size: 2.125rem;
@@ -647,9 +686,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 3.75rem;
 }
 .sectionDescription .sectionInner {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .sectionDescription .descriptionText {
@@ -661,9 +704,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 50rem;
   height: 52.75rem;
   background-color: #F3F3F3;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
 }
@@ -671,6 +718,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2.5rem;
 }
 .sectionDescription .descriptionImg {
+  -o-object-fit: cover;
   object-fit: cover;
   width: 50.6875rem;
   height: 52.75rem;
@@ -680,9 +728,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 3.75rem;
 }
 .TelAvivProject .description .sectionInner {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .TelAvivProject .description .fistImg {
@@ -699,14 +751,21 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.1em;
   color: #757575;
   text-align: right;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 .TelAvivProject .cards .sectionInner {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .TelAvivProject .cards .smallImgCard {
@@ -721,23 +780,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 .TelAvivProject .cards .firstColumn {
   height: 100%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .TelAvivProject .cards .seconColumn {
   height: 100%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .TelAvivProject .cards .thirdColumn {
   height: 100%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -748,9 +819,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sectionForm .sectionInner {
   height: 100%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .sectionForm .subTitle {
@@ -769,9 +844,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sectionForm .form {
   margin-top: 1.875rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 40.75rem;
   height: 11.75rem;
@@ -779,9 +858,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sectionForm .formLine {
   width: 100%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionForm .form .formsInput {
@@ -796,6 +879,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-size: 0.875rem;
   padding: 0.9375rem;
+}
+.sectionForm .form .formsInput::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .formsInput::-moz-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .formsInput:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .formsInput::-ms-input-placeholder {
+  color: #FFFFFF;
 }
 .sectionForm .form .formsInput::placeholder {
   color: #FFFFFF;
@@ -813,6 +908,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFFFF;
   text-align: right;
   resize: none;
+}
+.sectionForm .form .comments::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .comments::-moz-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .comments:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .comments::-ms-input-placeholder {
+  color: #FFFFFF;
 }
 .sectionForm .form .comments::placeholder {
   color: #FFFFFF;
@@ -840,9 +947,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFFFF;
 }
 .sectionFooter .sectionInner {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 .sectionFooter .copyright {
@@ -858,18 +969,25 @@ h1, h2, h3, h4, h5, h6 {
 .sectionFooter .social {
   width: 5.25rem;
   height: 2.1875rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionFooter .socialLink {
   opacity: 0.5;
+  display: -ms-flexbox;
   display: flex;
   border: 1px solid white;
   width: 2.1875rem;
   height: 2.1875rem;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .sectionFooter .socialLink:hover {
@@ -956,6 +1074,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 800px) {
   .sectionPojects .projectCards {
     height: auto;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .sectionPojects .fistColumn {
@@ -966,6 +1085,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .TelAvivProject .description .sectionInner {
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .TelAvivProject .description .sectionInner .TelAvivText {
@@ -973,9 +1093,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   .TelAvivProject .description .sectionInner .fistImg {
     width: 43.75rem;
+    -ms-flex-order: 2;
     order: 2;
   }
   .TelAvivProject .cards .sectionInner {
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .TelAvivProject .cards .smallImgCard,

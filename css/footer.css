@@ -5,9 +5,13 @@
   color: #FFFFFF;
 }
 .sectionFooter .sectionInner {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 .sectionFooter .copyright {
@@ -23,18 +27,25 @@
 .sectionFooter .social {
   width: 5.25rem;
   height: 2.1875rem;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionFooter .socialLink {
   opacity: 0.5;
+  display: -ms-flexbox;
   display: flex;
   border: 1px solid white;
   width: 2.1875rem;
   height: 2.1875rem;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .sectionFooter .socialLink:hover {

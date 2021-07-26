@@ -74,6 +74,7 @@
 @media (max-width: 800px) {
   .sectionPojects .projectCards {
     height: auto;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .sectionPojects .fistColumn {
@@ -84,6 +85,7 @@
   }
 
   .TelAvivProject .description .sectionInner {
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .TelAvivProject .description .sectionInner .TelAvivText {
@@ -91,9 +93,11 @@
   }
   .TelAvivProject .description .sectionInner .fistImg {
     width: 43.75rem;
+    -ms-flex-order: 2;
     order: 2;
   }
   .TelAvivProject .cards .sectionInner {
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .TelAvivProject .cards .smallImgCard,
