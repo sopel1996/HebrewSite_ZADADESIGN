@@ -18,7 +18,7 @@
             color: #FFFFFF;
             flex-grow: 1;
             letter-spacing: 0.25em;
-            margin-top: toRem(20);
+            // margin-top: toRem(20);
             text-align: center;
             width: toRem(120);
             &:hover{
@@ -132,11 +132,11 @@
         left: 0;
         background-color: #474849;
         height: toRem(140);
-        .sectionInner{
-            .navLink{
-                margin-top: 0;
-            }
-        }
+        // .sectionInner{
+        //     .navLink{
+        //         margin-top: 0;
+        //     }
+        // }
     }
     ._otherPages{
         position: relative;
