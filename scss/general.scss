@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
 }
 a{
     outline: none;
@@ -20,4 +25,6 @@ input[type=text] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    box-shadow: none !important;
+    background-clip: padding-box;
 }
