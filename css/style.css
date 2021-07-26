@@ -752,7 +752,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 60npm install --save-dev postcss gulp-postcss/16rem;
+  margin-bottom: 3.75rem;
   font-family: "IBMPlex";
   font-weight: 100;
   font-size: 2.125rem;
