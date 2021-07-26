@@ -16,6 +16,9 @@
   justify-content: space-between;
 }
 .sectionHeader .headerNav .navLink {
+  font-family: "IBMPlex";
+  font-weight: 100;
+  font-size: 1rem;
   color: #FFFFFF;
   flex-grow: 1;
   letter-spacing: 0.25em;
@@ -113,6 +116,7 @@
   letter-spacing: 0.15em;
   margin-right: -0.15em;
   text-align: right;
+  text-transform: uppercase;
 }
 .sectionHeader .headerText .sectionInner .subTitle {
   font-family: "IBMPlex";

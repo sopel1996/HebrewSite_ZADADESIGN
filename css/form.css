@@ -1,5 +1,5 @@
 .sectionForm {
-  height: 26.25rem;
+  height: 30rem;
   background-color: #CEA48B;
   color: #FFFFFF;
 }
@@ -15,13 +15,14 @@
   font-weight: 300;
   font-size: 0.875rem;
   opacity: 0.6;
+  margin-top: 3.75rem;
 }
 .sectionForm .title {
   font-family: "IBMPlex";
   font-weight: 100;
   font-size: 3.625rem;
   letter-spacing: 0.15em;
-  margin-top: 1.5625rem;
+  margin-top: 3.75rem;
 }
 .sectionForm .form {
   margin-top: 1.875rem;
@@ -31,6 +32,7 @@
   justify-content: space-between;
   width: 40.75rem;
   height: 11.75rem;
+  margin-bottom: 3.75rem;
 }
 .sectionForm .formLine {
   width: 100%;

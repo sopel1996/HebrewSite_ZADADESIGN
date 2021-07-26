@@ -15,10 +15,10 @@
             justify-content: space-between;
         }
         .navLink{
+            @include IBMPlexExtraLight(16);
             color: #FFFFFF;
             flex-grow: 1;
             letter-spacing: 0.25em;
-            // margin-top: toRem(20);
             text-align: center;
             width: toRem(120);
             &:hover{
@@ -45,7 +45,6 @@
             max-width: toRem(1610);
             min-width: toRem(300);
             height: toRem(100);
-            // bottom: toRem(20);
             bottom: toRem(30);
             right: 0;
             left: 0;
@@ -118,6 +117,7 @@
                 letter-spacing: 0.15em;
                 margin-right:-0.15em;
                 text-align:right;
+                text-transform: uppercase;
             }
             .subTitle{
                 @include IBMPlexLight(20);
@@ -132,11 +132,6 @@
         left: 0;
         background-color: #474849;
         height: toRem(140);
-        // .sectionInner{
-        //     .navLink{
-        //         margin-top: 0;
-        //     }
-        // }
     }
     ._otherPages{
         position: relative;
@@ -148,13 +143,9 @@
             justify-content: center;
             .title{
                 margin-bottom: toRem(7);
-                // border: 1px solid red;
                 text-align: right;
             }
             .subTitle{
-                // width: 100%;
-                // text-align: center;
-                // border: 1px solid red;
                 @include IBMPlexLight(16);
                 letter-spacing: 0.2em;
                 opacity: 0.6;

@@ -5,7 +5,7 @@
         height: toRem(3420);
         border: none;
         border-bottom: 1px solid #CEA48B;
-        margin-top: toRem(33);
+        margin-top: toRem(60);
         margin-bottom: toRem(60);
         padding-top: toRem(25);
         display: flex;
@@ -24,9 +24,10 @@
         color: #222222;
         margin-top: toRem(32);
         margin-bottom: toRem(21);
+        text-transform: uppercase
     }
     .cardText{
-        @include IBMPlexLight(20);
+        @include IBMPlexExtraLight(20);
         letter-spacing: 0.1em;
         display: flex;
         align-items: center;
@@ -108,7 +109,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: toRem(54);
+        margin-bottom: toRem(60);
         @include IBMPlexExtraLight(34);
         letter-spacing: 0.1em;
         text-transform: uppercase;

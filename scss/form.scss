@@ -1,6 +1,6 @@
 @import 'mixins.scss';
 .sectionForm{
-    height: toRem(420);
+    height: toRem(480);
     background-color: #CEA48B;
     color: #FFFFFF;
     .sectionInner{
@@ -13,11 +13,12 @@
     .subTitle{
         @include IBMPlexLight(14);
         opacity: 0.6;
+        margin-top: toRem(60);
     }
     .title{
         @include IBMPlexExtraLight(58);
         letter-spacing: 0.15em;
-        margin-top: toRem(25);
+        margin-top: toRem(60);
     }
     .form{
         margin-top: toRem(30);
@@ -27,6 +28,7 @@
         justify-content: space-between;
         width: toRem(652);
         height: toRem(188);
+        margin-bottom: toRem(60);
         &Line{
             width: 100%;
             display: flex;

@@ -11,7 +11,7 @@
         
     }
     .descriptionText{
-        @include IBMPlexLight(20);
+        @include IBMPlexExtraLight(20);
         letter-spacing: 0.1em;
         padding: toRem(204) toRem(135) toRem(198) toRem(134);
         width: toRem(800);
