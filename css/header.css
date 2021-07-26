@@ -112,6 +112,8 @@
   font-weight: 100;
   font-size: 2.625rem;
   letter-spacing: 0.15em;
+  margin-right: -0.15em;
+  text-align: right;
 }
 .sectionHeader .headerText .sectionInner .subTitle {
   font-family: "IBMPlex";
@@ -126,6 +128,9 @@
   background-color: #474849;
   height: 8.75rem;
 }
+.sectionHeader ._grayBG .sectionInner .navLink {
+  margin-top: 0;
+}
 .sectionHeader ._otherPages {
   position: relative;
   top: 0;
@@ -138,5 +143,13 @@
   justify-content: center;
 }
 .sectionHeader ._otherPages .sectionInner .title {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.4375rem;
+  text-align: right;
+}
+.sectionHeader ._otherPages .sectionInner .subTitle {
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  opacity: 0.6;
 }

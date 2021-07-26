@@ -72,6 +72,7 @@
             outline: none;
             border: none;
             cursor: pointer;
+            @include IBMPlexLight(18);
             &:active{
                 background-color: #f1f0f0;
             }

@@ -485,6 +485,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   font-size: 2.625rem;
   letter-spacing: 0.15em;
+  margin-right: -0.15em;
+  text-align: right;
 }
 .sectionHeader .headerText .sectionInner .subTitle {
   font-family: "IBMPlex";
@@ -499,6 +501,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #474849;
   height: 8.75rem;
 }
+.sectionHeader ._grayBG .sectionInner .navLink {
+  margin-top: 0;
+}
 .sectionHeader ._otherPages {
   position: relative;
   top: 0;
@@ -511,7 +516,15 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 .sectionHeader ._otherPages .sectionInner .title {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.4375rem;
+  text-align: right;
+}
+.sectionHeader ._otherPages .sectionInner .subTitle {
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.2em;
+  opacity: 0.6;
 }
 
 .sectionPojects .projectCards {
@@ -809,6 +822,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   border: none;
   cursor: pointer;
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 1.125rem;
 }
 .sectionForm .form .btn:active {
   background-color: #f1f0f0;

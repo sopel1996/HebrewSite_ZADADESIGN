@@ -116,6 +116,8 @@
             .title{
                 @include IBMPlexExtraLight(42);
                 letter-spacing: 0.15em;
+                margin-right:-0.15em;
+                text-align:right;
             }
             .subTitle{
                 @include IBMPlexLight(20);
@@ -130,6 +132,11 @@
         left: 0;
         background-color: #474849;
         height: toRem(140);
+        .sectionInner{
+            .navLink{
+                margin-top: 0;
+            }
+        }
     }
     ._otherPages{
         position: relative;
@@ -140,7 +147,17 @@
         .sectionInner{
             justify-content: center;
             .title{
-                margin-bottom: toRem(20);
+                margin-bottom: toRem(7);
+                // border: 1px solid red;
+                text-align: right;
+            }
+            .subTitle{
+                // width: 100%;
+                // text-align: center;
+                // border: 1px solid red;
+                @include IBMPlexLight(16);
+                letter-spacing: 0.2em;
+                opacity: 0.6;
             }
         }
         margin-bottom: toRem(65);

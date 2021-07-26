@@ -80,6 +80,9 @@
   outline: none;
   border: none;
   cursor: pointer;
+  font-family: "IBMPlex";
+  font-weight: 300;
+  font-size: 1.125rem;
 }
 .sectionForm .form .btn:active {
   background-color: #f1f0f0;
