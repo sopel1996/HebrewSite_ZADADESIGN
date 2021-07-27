@@ -232,8 +232,8 @@
 }
 @-webkit-keyframes secondaryImageOverlayOut {
   95% {
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
   100% {
     opacity: 0;
@@ -241,8 +241,8 @@
 }
 @keyframes secondaryImageOverlayOut {
   95% {
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
   100% {
     opacity: 0;
