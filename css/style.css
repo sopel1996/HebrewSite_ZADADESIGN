@@ -389,6 +389,10 @@ input {
   border: none !important;
 }
 
+._opacity {
+  opacity: 1 !important;
+}
+
 .sectionHeader ._mob {
   display: none;
   position: absolute;

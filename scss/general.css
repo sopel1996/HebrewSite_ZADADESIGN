@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.sectionInner {
+  max-width: 100.625rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+input {
+  background-clip: padding-box;
+}
+
+._borderNone {
+  border: none !important;
+}
+
+._opacity {
+  opacity: 1 !important;
+}
+/*# sourceMappingURL=general.css.map */
