@@ -119,7 +119,7 @@
     position: fixed;
     top: 5.75rem;
     left: 2.1875rem;
-    z-index: 30;
+    z-index: 80;
     width: 3.125rem;
     height: 3.125rem;
     border-radius: 50%;
@@ -310,6 +310,17 @@
   .sectionForm .formLine {
     flex-direction: column;
     width: 100%;
+  }
+
+  .TelAvivProject .description .sectionInner {
+    flex-direction: column;
+  }
+  .TelAvivProject .description .sectionInner .TelAvivText {
+    width: 100%;
+  }
+  .TelAvivProject .description .sectionInner .fistImg {
+    width: 100%;
+    order: 2;
   }
 }
 @media (max-width: 575px) {

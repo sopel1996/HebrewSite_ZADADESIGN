@@ -1336,7 +1336,7 @@ input {
     position: fixed;
     top: 5.75rem;
     left: 2.1875rem;
-    z-index: 30;
+    z-index: 80;
     width: 3.125rem;
     height: 3.125rem;
     border-radius: 50%;
@@ -1550,6 +1550,21 @@ input {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
+  }
+  .TelAvivProject .description .sectionInner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .TelAvivProject .description .sectionInner .TelAvivText {
+    width: 100%;
+  }
+  .TelAvivProject .description .sectionInner .fistImg {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 

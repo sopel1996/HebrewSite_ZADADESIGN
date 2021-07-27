@@ -160,7 +160,7 @@
             position: fixed;
             top: toRem(92);
             left: toRem(35);
-            z-index: 30;
+            z-index: 80;
             width: toRem(50);
             height: toRem(50);
             border-radius: 50%;
@@ -352,6 +352,22 @@
                 width: 100%;
             }
         }
+    }
+
+    .TelAvivProject{
+        .description{
+            .sectionInner{
+                flex-direction: column;
+                .TelAvivText{
+                    width: 100%;
+                }
+                .fistImg{
+                    width: 100%;
+                    order: 2;
+                }
+            }
+        }
+        
     }
 }
 @media (max-width: (576-1)+px){
