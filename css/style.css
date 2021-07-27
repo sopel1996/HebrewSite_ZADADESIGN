@@ -1335,7 +1335,7 @@ input {
   .sectionHeader .burger-menu_button {
     position: fixed;
     top: 5.75rem;
-    left: 3.125rem;
+    left: 2.1875rem;
     z-index: 30;
     width: 3.125rem;
     height: 3.125rem;
@@ -1395,7 +1395,7 @@ input {
     padding-top: 11.25rem;
     position: fixed;
     top: 0;
-    z-index: 20;
+    z-index: 70;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

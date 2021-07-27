@@ -159,7 +159,7 @@
         .burger-menu_button {
             position: fixed;
             top: toRem(92);
-            left: toRem(50);
+            left: toRem(35);
             z-index: 30;
             width: toRem(50);
             height: toRem(50);
@@ -225,7 +225,7 @@
             padding-top: toRem(180);
             position: fixed;
             top: 0;
-            z-index: 20;
+            z-index: 70;
             display: flex;
             flex-flow: column;
             height: 100%;
