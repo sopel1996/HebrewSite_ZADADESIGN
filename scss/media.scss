@@ -401,7 +401,7 @@
 @media (max-width: (360-1)+px){
 
     html {
-        font-size: 8px;
+        font-size: 7px;
     }
     // .sectionForm {
     //     .form{
@@ -415,4 +415,9 @@
     //     }
     // }
     
+}
+@media (max-width: (260-1)+px){
+    html {
+        font-size: 6px;
+    }
 }
