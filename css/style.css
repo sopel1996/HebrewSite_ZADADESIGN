@@ -1605,19 +1605,37 @@ input {
 
 @media (max-width: 392px) {
   html {
-    font-size: 7px;
+    font-size: 10px;
   }
   .sectionPojects .cardText bdo {
     width: 70%;
+  }
+  .sectionDescription .sectionInner .descriptionText {
+    font-size: 1.0625rem;
+  }
+  .sectionDescription .sectionInner .descriptionImg {
+    height: 43.75rem;
   }
   .sectionFooter .copyright {
     line-height: 2;
   }
 }
 
+@media (max-width: 302px) {
+  html {
+    font-size: 10px;
+  }
+  .sectionHeader .headerText .sectionInner .title {
+    font-size: 2.1875rem;
+  }
+  .sectionHeader .headerText .sectionInner .subTitle {
+    font-size: 1.125rem;
+  }
+}
+
 @media (max-width: 259px) {
   html {
-    font-size: 6px;
+    font-size: 8px;
   }
 }
 /*# sourceMappingURL=style.css.map */

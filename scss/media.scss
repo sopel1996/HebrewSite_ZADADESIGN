@@ -406,12 +406,23 @@
 @media (max-width: (393-1)+px){
 
     html {
-        font-size: 7px;
+        font-size: 10px;
     }
     .sectionPojects{
         .cardText{
             bdo{
                 width: 70%;
+            }
+        }
+    }
+
+    .sectionDescription{
+        .sectionInner{
+            .descriptionText{
+                font-size: toRem(17);
+            }
+            .descriptionImg{
+                height: toRem(700);
             }
         }
     }
@@ -435,8 +446,25 @@
     // }
     
 }
+@media (max-width: (303-1)+px){
+    html {
+        font-size: 10px;
+    }
+    .sectionHeader {
+        .headerText {
+            .sectionInner {
+                .title{
+                    font-size: toRem(35);
+                }
+                .subTitle{
+                    font-size: toRem(18);
+                }
+            }
+        }
+}
+}
 @media (max-width: (260-1)+px){
     html {
-        font-size: 6px;
+        font-size: 8px;
     }
 }
