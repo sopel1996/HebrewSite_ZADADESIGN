@@ -1,5 +1,17 @@
 @import 'mixins.scss';
 .sectionHeader{
+    ._mob{
+        display: none;
+        position: absolute;
+        top: toRem(86);
+        left: 0;
+        z-index: 20;
+        width: 100%;
+        height: toRem(67);
+    }
+    .burger-menu{
+        display: none;
+    }
     .headerNav{
         position: absolute;
         top: toRem(86);
