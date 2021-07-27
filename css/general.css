@@ -31,3 +31,7 @@ input {
 ._borderNone {
   border: none !important;
 }
+
+._opacity {
+  opacity: 1 !important;
+}
