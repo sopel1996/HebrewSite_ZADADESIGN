@@ -151,7 +151,6 @@
                 height: toRem(400);
             }
         }
-        height: toRem(400);
         .headerText{
             top: toRem(200);
         }
@@ -384,6 +383,12 @@
         }
         
     }
+    .sectionFooter {
+    
+        .copyright {
+            line-height: 2;
+        }
+    }
 }
 @media (max-width: (576-1)+px){
 
@@ -398,11 +403,25 @@
         }
     }
 }
-@media (max-width: (360-1)+px){
+@media (max-width: (393-1)+px){
 
     html {
         font-size: 7px;
     }
+    .sectionPojects{
+        .cardText{
+            bdo{
+                width: 70%;
+            }
+        }
+    }
+    .sectionFooter {
+    
+        .copyright {
+            line-height: 2;
+        }
+    }
+        
     // .sectionForm {
     //     .form{
     //         .formsInput,

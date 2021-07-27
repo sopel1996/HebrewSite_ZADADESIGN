@@ -151,9 +151,12 @@
         background-color: #474849;
         height: toRem(140);
     }
+    ._mainPage{
+        
+    }
     ._otherPages{
         position: relative;
-        top: 0;
+        top: 0 !important;
         left: 0;
         background-color: #CEA48B;
         height: toRem(205);

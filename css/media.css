@@ -121,9 +121,6 @@
     font-size: 16px;
   }
 
-  .sectionHeader {
-    height: 25rem;
-  }
   .sectionHeader .owl-carousel .owlItem {
     height: 25rem;
   }
@@ -405,6 +402,10 @@
     -ms-flex-order: 2;
     order: 2;
   }
+
+  .sectionFooter .copyright {
+    line-height: 2;
+  }
 }
 @media (max-width: 575px) {
   html {
@@ -415,9 +416,17 @@
     display: none;
   }
 }
-@media (max-width: 359px) {
+@media (max-width: 392px) {
   html {
     font-size: 7px;
+  }
+
+  .sectionPojects .cardText bdo {
+    width: 70%;
+  }
+
+  .sectionFooter .copyright {
+    line-height: 2;
   }
 }
 @media (max-width: 259px) {
