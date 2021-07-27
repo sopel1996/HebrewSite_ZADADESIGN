@@ -146,6 +146,15 @@
         font-size: 16px;
     }
     .sectionHeader{
+        .owl-carousel{
+            .owlItem{
+                height: toRem(400);
+            }
+        }
+        height: toRem(400);
+        .headerText{
+            top: toRem(200);
+        }
         .headerNav{
             display: none;
         }
@@ -386,7 +395,7 @@
 @media (max-width: (360-1)+px){
 
     html {
-        font-size: 10px;
+        font-size: 8px;
     }
     // .sectionForm {
     //     .form{

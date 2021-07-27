@@ -1334,6 +1334,15 @@ input {
   html {
     font-size: 16px;
   }
+  .sectionHeader {
+    height: 25rem;
+  }
+  .sectionHeader .owl-carousel .owlItem {
+    height: 25rem;
+  }
+  .sectionHeader .headerText {
+    top: 12.5rem;
+  }
   .sectionHeader .headerNav {
     display: none;
   }
@@ -1590,7 +1599,7 @@ input {
 
 @media (max-width: 359px) {
   html {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 /*# sourceMappingURL=style.css.map */
