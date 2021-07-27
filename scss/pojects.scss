@@ -84,6 +84,7 @@
             // transform: translateX(100%);
             animation: secondaryImageOverlayOut 2.6s 0.3s;
             animation-fill-mode: both;
+            // display: none;
         }
     }
     .fistColumn{
@@ -184,6 +185,7 @@
     }
     100% {
         opacity: 0;
+        display: none;
     }
   }
 
