@@ -358,13 +358,16 @@
   .sectionForm {
     height: 56.25rem;
   }
+  .sectionForm .subTitle {
+    font-size: 1.25rem;
+  }
   .sectionForm .form {
     height: 31.25rem;
     width: 100%;
   }
   .sectionForm .form .formsInput,
 .sectionForm .form .comments {
-    font-size: 1rem;
+    font-size: 1.125rem;
     width: 75%;
     margin-bottom: 1.25rem;
   }

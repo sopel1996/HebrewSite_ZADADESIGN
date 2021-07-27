@@ -344,12 +344,15 @@
 
     .sectionForm {
         height: toRem(900);
+        .subTitle{
+            font-size: toRem(20);
+        }
         .form{
             height: toRem(500);
             width: 100%;
             .formsInput,
             .comments{
-                font-size: 1rem;
+                font-size: toRem(18);
                 width: 75%;
                 margin-bottom: toRem(20);
             }
