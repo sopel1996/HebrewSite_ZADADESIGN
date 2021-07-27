@@ -5,9 +5,22 @@
   margin-top: 3.75rem;
   margin-bottom: 3.75rem;
   padding-top: 1.5625rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionPojects .title {
@@ -15,8 +28,17 @@
   font-weight: 100;
   font-size: 2.125rem;
   letter-spacing: 0.1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: #222222;
   margin-top: 2rem;
@@ -28,8 +50,17 @@
   font-weight: 100;
   font-size: 1.25rem;
   letter-spacing: 0.1em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   color: #757575;
   margin-bottom: 6.25rem;
@@ -39,6 +70,7 @@
   text-align: center;
 }
 .sectionPojects .cardImg {
+  -o-object-fit: cover;
   object-fit: cover;
 }
 .sectionPojects .smallCard,
@@ -51,14 +83,28 @@
 .sectionPojects .bigCard:hover,
 .sectionPojects .s_mediumCard:hover,
 .sectionPojects .mediumCard:hover {
+  -webkit-box-shadow: 0px 0px 20px 14px rgba(167, 175, 182, 0.2);
   box-shadow: 0px 0px 20px 14px rgba(167, 175, 182, 0.2);
 }
 .sectionPojects .fistColumn {
   height: 100%;
   width: 48.4375rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
 }
 .sectionPojects .fistColumn .smallCard,
@@ -71,9 +117,22 @@
   height: 100%;
   width: 48.4375rem;
   padding-top: 3.125rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
 }
 .sectionPojects .smallCard .cardImg {
@@ -95,8 +154,17 @@
 .sectionPojects .viewMoreLink {
   width: 100%;
   height: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 3.75rem;
   font-family: "IBMPlex";

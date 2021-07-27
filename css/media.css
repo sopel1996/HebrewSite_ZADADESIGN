@@ -74,6 +74,10 @@
 @media (max-width: 800px) {
   .sectionPojects .projectCards {
     height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .sectionPojects .fistColumn {
@@ -84,6 +88,10 @@
   }
 
   .TelAvivProject .description .sectionInner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .TelAvivProject .description .sectionInner .TelAvivText {
@@ -91,9 +99,16 @@
   }
   .TelAvivProject .description .sectionInner .fistImg {
     width: 43.75rem;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
     order: 2;
   }
   .TelAvivProject .cards .sectionInner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .TelAvivProject .cards .smallImgCard,
@@ -122,10 +137,10 @@
     z-index: 80;
     width: 3.125rem;
     height: 3.125rem;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
   }
@@ -133,6 +148,7 @@
     left: 4.6875rem;
   }
   .sectionHeader .burger-menu_button:hover .burger-menu_lines {
+    -webkit-filter: brightness(0.7);
     filter: brightness(0.7);
   }
   .sectionHeader .burger-menu_button:hover {
@@ -146,13 +162,14 @@
     height: 0.125rem;
     background-color: #ffffff;
     -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
   }
   .sectionHeader .burger-menu_lines {
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
   .sectionHeader .burger-menu_lines::before {
@@ -168,10 +185,14 @@
   }
   .sectionHeader .burger-menu_active .burger-menu_lines::before {
     top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
   .sectionHeader .burger-menu_active .burger-menu_lines::after {
     top: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
   .sectionHeader .burger-menu_nav {
@@ -179,21 +200,26 @@
     position: fixed;
     top: 0;
     z-index: 70;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
     flex-flow: column;
     height: 100%;
     background-color: #000000;
     overflow-y: auto;
     left: -100%;
     -webkit-transition: 0.8s;
-    -moz-transition: 0.8s;
     -o-transition: 0.8s;
     transition: 0.8s;
   }
   .sectionHeader .burger-menu_active .burger-menu_nav {
     left: 0;
     -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
   }
@@ -208,14 +234,24 @@
     border-bottom: 1px solid #fff;
     width: 12.5rem;
     height: 3.125rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
   }
   .sectionHeader .burger-menu_link:first-child {
     border-top: 1px solid #fff;
   }
   .sectionHeader .burger-menu_link:hover {
+    -webkit-filter: brightness(0.9);
     filter: brightness(0.9);
   }
   .sectionHeader .burger-menu_overlay {
@@ -242,7 +278,13 @@
   .sectionPojects .fistColumn,
 .sectionPojects .secondColumn {
     width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .sectionPojects .fistColumn .smallCard,
@@ -253,9 +295,22 @@
 .sectionPojects .secondColumn .bigCard,
 .sectionPojects .secondColumn .s_mediumCard,
 .sectionPojects .secondColumn .mediumCard {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
   }
   .sectionPojects .fistColumn .smallCard .cardImg,
@@ -275,6 +330,10 @@
     height: auto;
   }
   .sectionDescription .sectionInner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .sectionDescription .sectionInner .descriptionText {
@@ -308,11 +367,19 @@
     height: 12.5rem;
   }
   .sectionForm .formLine {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
   }
 
   .TelAvivProject .description .sectionInner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .TelAvivProject .description .sectionInner .TelAvivText {
@@ -320,6 +387,9 @@
   }
   .TelAvivProject .description .sectionInner .fistImg {
     width: 100%;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
     order: 2;
   }
 }

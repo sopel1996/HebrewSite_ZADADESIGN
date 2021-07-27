@@ -5,9 +5,22 @@
 }
 .sectionForm .sectionInner {
   height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .sectionForm .subTitle {
@@ -26,9 +39,22 @@
 }
 .sectionForm .form {
   margin-top: 1.875rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 40.75rem;
   height: 11.75rem;
@@ -36,9 +62,22 @@
 }
 .sectionForm .formLine {
   width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .sectionForm .form .formsInput {
@@ -53,6 +92,18 @@
   font-weight: 300;
   font-size: 0.875rem;
   padding: 0.9375rem;
+}
+.sectionForm .form .formsInput::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .formsInput::-moz-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .formsInput:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .formsInput::-ms-input-placeholder {
+  color: #FFFFFF;
 }
 .sectionForm .form .formsInput::placeholder {
   color: #FFFFFF;
@@ -70,6 +121,18 @@
   color: #FFFFFF;
   text-align: right;
   resize: none;
+}
+.sectionForm .form .comments::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .comments::-moz-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .comments:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.sectionForm .form .comments::-ms-input-placeholder {
+  color: #FFFFFF;
 }
 .sectionForm .form .comments::placeholder {
   color: #FFFFFF;

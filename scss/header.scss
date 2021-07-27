@@ -12,6 +12,12 @@
     .burger-menu{
         display: none;
     }
+    .burger{
+        margin-top: toRem(20);
+        width: toRem(100);
+        height: auto;
+        border: none;
+    }
     .headerNav{
         position: absolute;
         top: toRem(86);
