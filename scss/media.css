@@ -2,83 +2,83 @@
   .sectionInner {
     padding: 0 1.25rem;
   }
-
   .sectionPojects .fistColumn {
     margin-right: 50px;
   }
-
   html {
     font-size: 15px;
   }
 }
+
 @media (max-width: 1499px) {
   .TelAvivProject .description .fistImg {
     height: auto;
     width: 42.5rem;
   }
   .TelAvivProject .cards .smallImgCard,
-.TelAvivProject .cards .bigImgCard {
+  .TelAvivProject .cards .bigImgCard {
     width: 27.5rem;
     height: auto;
   }
 }
+
 @media (max-width: 1299px) {
   .sectionDescription .descriptionImg {
     width: 40rem;
   }
-
   .TelAvivProject .description .fistImg {
     height: auto;
     width: 40.625rem;
   }
   .TelAvivProject .cards .smallImgCard,
-.TelAvivProject .cards .bigImgCard {
+  .TelAvivProject .cards .bigImgCard {
     width: 25rem;
     height: auto;
   }
 }
+
 @media (max-width: 1199px) {
   html {
     font-size: 13px;
   }
-
   .TelAvivProject .description .fistImg {
     height: auto;
     width: 37.5rem;
   }
   .TelAvivProject .cards .smallImgCard,
-.TelAvivProject .cards .bigImgCard {
+  .TelAvivProject .cards .bigImgCard {
     width: 23.75rem;
     height: auto;
   }
 }
+
 @media (max-width: 991px) {
   html {
     font-size: 11px;
   }
 }
+
 @media (max-width: 849px) {
   .sectionDescription .descriptionImg {
     width: 34.375rem;
   }
-
   .TelAvivProject .description .TelAvivText {
     font-size: 1.125rem;
   }
   .TelAvivProject .cards .smallImgCard,
-.TelAvivProject .cards .bigImgCard {
+  .TelAvivProject .cards .bigImgCard {
     width: 21.875rem;
     height: auto;
   }
 }
+
 @media (max-width: 800px) {
   .sectionPojects .projectCards {
     height: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .sectionPojects .fistColumn {
     margin-right: 0;
@@ -86,13 +86,11 @@
   .sectionPojects ._marginTop370 {
     margin-top: 0;
   }
-
   .TelAvivProject .description .sectionInner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .TelAvivProject .description .sectionInner .TelAvivText {
     width: 43.75rem;
@@ -100,27 +98,25 @@
   .TelAvivProject .description .sectionInner .fistImg {
     width: 43.75rem;
     -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
-    -ms-flex-order: 2;
-    order: 2;
+        -ms-flex-order: 2;
+            order: 2;
   }
   .TelAvivProject .cards .sectionInner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .TelAvivProject .cards .smallImgCard,
-.TelAvivProject .cards .bigImgCard {
+  .TelAvivProject .cards .bigImgCard {
     width: 31rem;
   }
 }
+
 @media (max-width: 767px) {
   html {
     font-size: 16px;
   }
-
   .sectionHeader {
     height: 25rem;
   }
@@ -146,11 +142,9 @@
     z-index: 80;
     width: 3.125rem;
     height: 3.125rem;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     -webkit-transition: 0.4s;
-    -o-transition: 0.4s;
     transition: 0.4s;
   }
   .sectionHeader .burger-menu_button_active {
@@ -158,35 +152,33 @@
   }
   .sectionHeader .burger-menu_button:hover .burger-menu_lines {
     -webkit-filter: brightness(0.7);
-    filter: brightness(0.7);
+            filter: brightness(0.7);
   }
   .sectionHeader .burger-menu_button:hover {
     background-color: rgba(0, 0, 0, 0.7);
   }
   .sectionHeader .burger-menu_lines::before,
-.sectionHeader .burger-menu_lines::after,
-.sectionHeader .burger-menu_lines {
+  .sectionHeader .burger-menu_lines::after,
+  .sectionHeader .burger-menu_lines {
     position: absolute;
     width: 1.875rem;
     height: 0.125rem;
     background-color: #ffffff;
     -webkit-transition: 0.4s;
-    -o-transition: 0.4s;
     transition: 0.4s;
   }
   .sectionHeader .burger-menu_lines {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .sectionHeader .burger-menu_lines::before {
-    content: "";
+    content: '';
     top: -0.5rem;
   }
   .sectionHeader .burger-menu_lines::after {
-    content: "";
+    content: '';
     top: 0.5rem;
   }
   .sectionHeader .burger-menu_active .burger-menu_lines {
@@ -195,14 +187,12 @@
   .sectionHeader .burger-menu_active .burger-menu_lines::before {
     top: 0;
     -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+            transform: rotate(45deg);
   }
   .sectionHeader .burger-menu_active .burger-menu_lines::after {
     top: 0;
     -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+            transform: rotate(-45deg);
   }
   .sectionHeader .burger-menu_nav {
     padding-top: 11.25rem;
@@ -210,26 +200,22 @@
     top: 0;
     z-index: 70;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-flow: column;
-    -ms-flex-flow: column;
-    flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
     height: 100%;
     background-color: #000000;
     overflow-y: auto;
     left: -100%;
     -webkit-transition: 0.8s;
-    -o-transition: 0.8s;
     transition: 0.8s;
   }
   .sectionHeader .burger-menu_active .burger-menu_nav {
     left: 0;
     -webkit-transition: 0.4s;
-    -o-transition: 0.4s;
     transition: 0.4s;
   }
   .sectionHeader .burger-menu_link {
@@ -244,24 +230,21 @@
     width: 12.5rem;
     height: 3.125rem;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .sectionHeader .burger-menu_link:first-child {
     border-top: 1px solid #fff;
   }
   .sectionHeader .burger-menu_link:hover {
     -webkit-filter: brightness(0.9);
-    filter: brightness(0.9);
+            filter: brightness(0.9);
   }
   .sectionHeader .burger-menu_overlay {
     display: none;
@@ -276,78 +259,64 @@
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
   }
-
   .sectionDescription .descriptionText {
     padding: 12.75rem 3.125rem 12.375rem 3.125rem;
   }
   .sectionDescription .descriptionImg {
     width: 25rem;
   }
-
-  .sectionPojects .cardText bdo {
-    width: 90%;
-  }
   .sectionPojects .fistColumn,
-.sectionPojects .secondColumn {
+  .sectionPojects .secondColumn {
     width: 100%;
     -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .sectionPojects .fistColumn .smallCard,
-.sectionPojects .fistColumn .bigCard,
-.sectionPojects .fistColumn .s_mediumCard,
-.sectionPojects .fistColumn .mediumCard,
-.sectionPojects .secondColumn .smallCard,
-.sectionPojects .secondColumn .bigCard,
-.sectionPojects .secondColumn .s_mediumCard,
-.sectionPojects .secondColumn .mediumCard {
+  .sectionPojects .fistColumn .bigCard,
+  .sectionPojects .fistColumn .s_mediumCard,
+  .sectionPojects .fistColumn .mediumCard,
+  .sectionPojects .secondColumn .smallCard,
+  .sectionPojects .secondColumn .bigCard,
+  .sectionPojects .secondColumn .s_mediumCard,
+  .sectionPojects .secondColumn .mediumCard {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    width: 100%;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .sectionPojects .fistColumn .smallCard .cardImg,
-.sectionPojects .fistColumn .bigCard .cardImg,
-.sectionPojects .fistColumn .s_mediumCard .cardImg,
-.sectionPojects .fistColumn .mediumCard .cardImg,
-.sectionPojects .secondColumn .smallCard .cardImg,
-.sectionPojects .secondColumn .bigCard .cardImg,
-.sectionPojects .secondColumn .s_mediumCard .cardImg,
-.sectionPojects .secondColumn .mediumCard .cardImg {
+  .sectionPojects .fistColumn .bigCard .cardImg,
+  .sectionPojects .fistColumn .s_mediumCard .cardImg,
+  .sectionPojects .fistColumn .mediumCard .cardImg,
+  .sectionPojects .secondColumn .smallCard .cardImg,
+  .sectionPojects .secondColumn .bigCard .cardImg,
+  .sectionPojects .secondColumn .s_mediumCard .cardImg,
+  .sectionPojects .secondColumn .mediumCard .cardImg {
     margin: 0;
     width: 75%;
     height: auto;
   }
-
   .sectionDescription {
     height: auto;
   }
   .sectionDescription .sectionInner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .sectionDescription .sectionInner .descriptionText {
     width: 100%;
@@ -357,7 +326,6 @@
   .sectionDescription .sectionInner .descriptionImg {
     width: 100%;
   }
-
   .sectionForm {
     height: 43.75rem;
   }
@@ -366,7 +334,7 @@
     width: 100%;
   }
   .sectionForm .form .formsInput,
-.sectionForm .form .comments {
+  .sectionForm .form .comments {
     font-size: 1rem;
     width: 75%;
     margin-bottom: 1.25rem;
@@ -382,18 +350,15 @@
   .sectionForm .formLine {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
   }
-
   .TelAvivProject .description .sectionInner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .TelAvivProject .description .sectionInner .TelAvivText {
     width: 100%;
@@ -401,22 +366,23 @@
   .TelAvivProject .description .sectionInner .fistImg {
     width: 100%;
     -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
-    -ms-flex-order: 2;
-    order: 2;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
+
 @media (max-width: 575px) {
   html {
     font-size: 13px;
   }
-
   .sectionHeader .owl-carousel .owl-nav {
     display: none;
   }
 }
+
 @media (max-width: 359px) {
   html {
     font-size: 8px;
   }
 }
+/*# sourceMappingURL=media.css.map */

@@ -680,6 +680,7 @@ input {
       -ms-flex-pack: center;
           justify-content: center;
   color: #757575;
+  margin: 0 1.875rem;
   margin-bottom: 6.25rem;
 }
 
@@ -1165,6 +1166,7 @@ input {
   font-weight: 300;
   font-size: 0.75rem;
   letter-spacing: 0.25em;
+  text-align: center;
 }
 
 .sectionFooter .Logo {
@@ -1482,6 +1484,9 @@ input {
   .sectionDescription .descriptionImg {
     width: 25rem;
   }
+  .sectionPojects .cardText bdo {
+    width: 90%;
+  }
   .sectionPojects .fistColumn,
   .sectionPojects .secondColumn {
     width: 100%;
@@ -1513,6 +1518,7 @@ input {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 100%;
   }
   .sectionPojects .fistColumn .smallCard .cardImg,
   .sectionPojects .fistColumn .bigCard .cardImg,
@@ -1523,7 +1529,7 @@ input {
   .sectionPojects .secondColumn .s_mediumCard .cardImg,
   .sectionPojects .secondColumn .mediumCard .cardImg {
     margin: 0;
-    width: 100%;
+    width: 75%;
     height: auto;
   }
   .sectionDescription {

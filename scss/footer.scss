@@ -13,6 +13,7 @@
     .copyright{
         @include IBMPlexLight(12);
         letter-spacing: 0.25em;
+        text-align: center;
     }
     .Logo{
         width: toRem(106);

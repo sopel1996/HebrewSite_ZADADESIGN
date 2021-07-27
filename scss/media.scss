@@ -297,6 +297,11 @@
         }
     }
     .sectionPojects{
+        .cardText{
+            bdo{
+                width: 90%;
+            }
+        }
         .fistColumn,
         .secondColumn{
             width: 100%;
@@ -311,9 +316,10 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-between;
+                width: 100%;
                 .cardImg{
                     margin: 0;
-                    width: 100%;
+                    width: 75%;
                     height: auto;
                    
                     // height: toRem(517);
