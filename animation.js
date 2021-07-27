@@ -11,11 +11,11 @@ function onEntry(entry) {
 let options = {
     threshold: [0.25]
 };
-let w = window.innerWidth;
+// let w = window.innerWidth;
 let observer = new IntersectionObserver(onEntry, options);
 let elements = document.querySelectorAll('.card');
-if (w > 767) {
-    for (let elm of elements) {
-        observer.observe(elm);
-    }
+// if (w > 767) {
+for (let elm of elements) {
+    observer.observe(elm);
 }
+// }
