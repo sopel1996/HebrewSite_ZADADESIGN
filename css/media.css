@@ -304,6 +304,7 @@
 .sectionPojects .secondColumn .bigCard,
 .sectionPojects .secondColumn .s_mediumCard,
 .sectionPojects .secondColumn .mediumCard {
+    opacity: 1;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
