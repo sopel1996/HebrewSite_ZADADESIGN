@@ -203,7 +203,7 @@
 		autoWidth: false,
 
 		startPosition: 0,
-		rtl: false,
+		rtl: true,
 
 		smartSpeed: 250,
 		fluidSpeed: false,
@@ -2971,8 +2971,8 @@
 		navContainer: false,
 		navContainerClass: 'owl-nav',
 		navClass: [
-			'owl-prev',
-			'owl-next'
+			'owl-next',
+			'owl-prev'
 		],
 		slideBy: 1,
 		dotClass: 'owl-dot',

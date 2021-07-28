@@ -99,10 +99,10 @@
   }
   .TelAvivProject .description .sectionInner .fistImg {
     width: 43.75rem;
-    -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
-    -ms-flex-order: 2;
-    order: 2;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
   }
   .TelAvivProject .cards .sectionInner {
     -webkit-box-orient: vertical;
@@ -400,10 +400,10 @@
   }
   .TelAvivProject .description .sectionInner .fistImg {
     width: 100%;
-    -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
-    -ms-flex-order: 2;
-    order: 2;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
   }
 
   .sectionFooter .copyright {

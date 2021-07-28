@@ -35,7 +35,7 @@
         color: #757575;
         margin: 0 toRem(30);
         margin-bottom: toRem(100);
-        bdo{
+        p{
             width: toRem(530);
             text-align: center;
         }
@@ -95,6 +95,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        order: 2;
         .smallCard,
         .bigCard,
         .s_mediumCard,

@@ -66,7 +66,7 @@
   margin: 0 1.875rem;
   margin-bottom: 6.25rem;
 }
-.sectionPojects .cardText bdo {
+.sectionPojects .cardText p {
   width: 33.125rem;
   text-align: center;
 }
@@ -122,6 +122,10 @@
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
 }
 .sectionPojects .fistColumn .smallCard,
 .sectionPojects .fistColumn .bigCard,
