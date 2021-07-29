@@ -1,4 +1,31 @@
 @import 'mixins.scss';
+
+.grid-item--height1 {
+    background:grey url(/img/png/496x331.png) 50% 50% no-repeat;
+    background-size: cover; 
+    width: toRem(496);
+    height: toRem(331);
+
+}
+.grid-item--height2 { 
+    background:grey url(/img/png/496x720.png) 50% 50% no-repeat;
+    background-size: cover; 
+    width: toRem(496);
+    height: toRem(720);
+
+}
+.grid{
+    margin: 0 auto;
+}
+.grid-item{
+    margin-bottom: 60px;
+}
+// .sectionInner{
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-between;
+// }
 .TelAvivProject{
     .description{
         .sectionInner{

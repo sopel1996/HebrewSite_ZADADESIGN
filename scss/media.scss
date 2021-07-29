@@ -145,6 +145,9 @@
     html{
         font-size: 16px;
     }
+    .mobMenu{
+        display: flex;
+    }
     .sectionHeader{
         .owl-carousel{
             .owlItem{
@@ -157,147 +160,19 @@
         .headerNav{
             display: none;
         }
-        ._mob{
-            display: block;
-            
-        }
-        .burger-menu{
-            display: block;
-        }
-        .burger-menu_button {
-            position: fixed;
-            top: toRem(92);
-            right: toRem(35);
-            z-index: 80;
-            width: toRem(50);
-            height: toRem(50);
-            border-radius: 50%;
-            background-color: rgba(0, 0, 0, 0.5);
-            -webkit-transition: 0.4s;
-            -moz-transition: 0.4s;
-            -o-transition: 0.4s;
-            transition: 0.4s;
-            &_active{
-                right: toRem(75);
-            }
-          }
-
-          .burger-menu_button:hover .burger-menu_lines {
-            filter: brightness(0.7);
-          }
-          
-          .burger-menu_button:hover {
-            background-color: rgba(0, 0, 0, 0.7);
-          }
-          
-          .burger-menu_lines::before,
-          .burger-menu_lines::after,
-          .burger-menu_lines {
-            position: absolute;
-            width: toRem(30);
-            height: toRem(2);
-            background-color: #ffffff;
-            -webkit-transition: 0.4s;
-            -moz-transition: 0.4s;
-            -o-transition: 0.4s;
-            transition: 0.4s;
-          }
-          .burger-menu_lines {
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-          }
-          .burger-menu_lines::before {
-            content: '';
-            top: toRem(-8);
-          }
-          .burger-menu_lines::after {
-            content: '';
-            top: toRem(8);
-          }
-          
-          
-          .burger-menu_active .burger-menu_lines {
-            background-color: transparent;
-          }
-          .burger-menu_active .burger-menu_lines::before {
-            top: 0;
-            transform: rotate(45deg);
-          }
-          .burger-menu_active .burger-menu_lines::after{
-            top: 0;
-            transform: rotate(-45deg);
-          }
-          
-          .burger-menu_nav {
-            padding-top: toRem(180);
-            position: fixed;
-            top: 0;
-            z-index: 70;
-            display: flex;
-            flex-flow: column;
-            height: 100%;
-            background-color: #000000;
-            overflow-y: auto;
-            right: -100%;
-            -webkit-transition: 0.8s;
-            -moz-transition: 0.8s;
-            -o-transition: 0.8s;
-            transition: 0.8s;
-          }
-          .burger-menu_active .burger-menu_nav {
-            right: 0;
-            -webkit-transition: 0.4s;
-            -moz-transition: 0.4s;
-            -o-transition: 0.4s;
-            transition: 0.4s;
-          }
-          .burger-menu_link {
-            // padding: 18px 35px;
-            @include IBMPlexExtraLight(18);
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: #ffffff;
-            border-bottom: 1px solid #fff;
-            width: toRem(200);
-            height: toRem(50);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-          .burger-menu_link:first-child {
-            border-top: 1px solid #fff;
-          }
-          .burger-menu_link:hover {
-            filter: brightness(0.9);
-          }
-          .burger-menu_overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            z-index: 50;
-          }
-          .burger-menu_active .burger-menu_overlay {
-            display: block;
-            background-color: rgba(0, 0, 0, 0.5);
-          }
-        
     }
     .sectionDescription{
         .descriptionText{
             padding: toRem(204) toRem(50) toRem(198) toRem(50);
         }
         .descriptionImg{
+            order: 1;
             width: toRem(400);
         }
     }
     .sectionPojects{
         .cardText{
-            bdo{
+            p{
                 width: 90%;
             }
         }
@@ -319,7 +194,7 @@
                 width: 100%;
                 .cardImg{
                     margin: 0;
-                    width: 75%;
+                    width: 100%;
                     height: auto;
                    
                     // height: toRem(517);
@@ -354,12 +229,12 @@
             .formsInput,
             .comments{
                 font-size: toRem(18);
-                width: 75%;
+                width: 100%;
                 margin-bottom: toRem(20);
             }
             .btn{
                 font-size: 1.3rem;
-                width: 75%;
+                width: 100%;
                 height: toRem(70);
             }
             .comments{
@@ -436,19 +311,6 @@
             line-height: 2;
         }
     }
-        
-    // .sectionForm {
-    //     .form{
-    //         .formsInput,
-    //         .comments{
-    //             font-size: 1rem;
-    //         }
-    //         .btn{
-    //             font-size: 1.3rem;
-    //         }
-    //     }
-    // }
-    
 }
 @media (max-width: (303-1)+px){
     html {
