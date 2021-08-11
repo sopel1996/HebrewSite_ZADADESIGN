@@ -1,0 +1,143 @@
+@import 'mixins.scss';
+@media (max-width: 1610px) {
+    .sectionInner{
+        padding: 0 toRem(20);
+    }
+    .sectionPojects{
+        .fistColumn{
+            margin-right: 50px;
+        }
+    }
+    html{
+        font-size: 15px;
+    }
+}
+@media (max-width: (1500-1)+px) {
+    .TelAvivProject{
+        .description{
+            .fistImg{
+                height: auto;
+                width: toRem(680);
+            }
+        }
+        .cards{
+            .smallImgCard,
+            .bigImgCard{
+                width: toRem(440);
+                height: auto;
+            }
+            
+        }
+    }
+}
+@media (max-width: (1300-1)+px) {
+    .sectionDescription{
+        .descriptionImg{
+            width: toRem(640);
+        }
+    }
+    .TelAvivProject{
+        .description{
+            .fistImg{
+                height: auto;
+                width: toRem(650);
+            }
+        }
+        .cards{
+            .smallImgCard,
+            .bigImgCard{
+                width: toRem(400);
+                height: auto;
+            }
+            
+        }
+    }
+
+}
+@media (max-width: (1200-1)+px) {
+    html{
+        font-size: 13px;
+    }
+    .TelAvivProject{
+        .description{
+            .fistImg{
+                height: auto;
+                width: toRem(600);
+            }
+        }
+        .cards{
+            .smallImgCard,
+            .bigImgCard{
+                width: toRem(380);
+                height: auto;
+            }
+            
+        }
+    }
+}
+@media (max-width: (992-1)+px) {
+    html{
+        font-size: 11px;
+    }
+    
+}
+@media (max-width: (850-1)+px) {
+    .sectionDescription{
+        .descriptionImg{
+            width: toRem(550);
+        }
+    }
+    .TelAvivProject{
+        .description{
+            .TelAvivText{
+                font-size: toRem(18);
+            }
+        }
+        .cards{
+            .smallImgCard,
+            .bigImgCard{
+                width: toRem(350);
+                height: auto;
+            }
+            
+        }
+    }
+}
+@media (max-width: (801-1)+px) {
+    .sectionPojects{
+        .projectCards{
+            height: auto;
+            flex-direction: column;
+        }
+        .fistColumn{
+            margin-right: 0;
+        }
+        ._marginTop370{
+            margin-top: 0;
+        }
+    }
+
+    .TelAvivProject{
+        .description{
+            .sectionInner{
+                flex-direction: column;
+                .TelAvivText{
+                    width: toRem(700);
+                }
+                .fistImg{
+                    width: toRem(700);
+                    order: 1;
+                }
+            }
+        }
+        .cards{
+            .sectionInner{
+                flex-direction: column;
+            }
+            .smallImgCard,
+            .bigImgCard{
+                width:  toRem(496);
+            }
+        }
+    }    
+}
