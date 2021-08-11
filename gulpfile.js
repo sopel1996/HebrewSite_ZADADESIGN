@@ -5,7 +5,7 @@ const autoprefixer = require('gulp-autoprefixer');
 // const postcss = require('gulp-postcss');
 
 function style() {
-    return gulp.src('./scss*/**/style*.scss')
+    return gulp.src('./scss/**/*.scss')
         .pipe(sass())
         .pipe(autoprefixer({
             cascade: false
@@ -20,7 +20,7 @@ function watch() {
             baseDir: './'
         }
     })
-    gulp.watch('./scss*/**/*.scss', style);
+    gulp.watch('./scss/**/*.scss', style);
     gulp.watch('./*.html').on('change', browserSync.reload);
 }
 
